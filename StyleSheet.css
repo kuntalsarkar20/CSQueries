@@ -1,0 +1,20 @@
+.navBar{
+	background-color: #66e066;
+}
+#linkcolor{
+	color:white;
+	background-color: #66e066;
+}
+#linkcolor:hover{
+	color:black;
+}
+#linkcolor:active{
+	color:green;
+}
+.centered {
+  position: absolute;
+  color:white;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
