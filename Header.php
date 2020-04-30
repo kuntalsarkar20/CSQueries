@@ -6,8 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <!--modal-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!--Animate on Scroll CDN Sources -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<!--End AOS CDN Sources -->
     <link rel="stylesheet" type="text/css" href="StyleSheet.css"><!-- Our Style Sheet -->
+    <link rel="stylesheet" type="text/css" href="StyleSheet2.css"><!-- Our Style Sheet -->
+    <!--CKEditor CDN Sources -->
+    <script src="https://cdn.ckeditor.com/4.14.0/standard/ckeditor.js"></script>
 </head>
 <body>
 	<div class="loader"></div>
@@ -26,7 +38,7 @@
 	        <li><a href="#" id="linkcolor">Home</a></li>
 	        <li class="dropdown">
 	          <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="linkcolor">Category <span class="caret"></span></a>
-	          <ul class="dropdown-menu" style="width:250px;">
+	          <ul class="dropdown-menu navBar">
 	            <li><a href="#" id="linkcolor">DBMS</a></li>
 	            <li><a href="#" id="linkcolor">DS & Algorithm</a></li>
 	            <li><a href="#" id="linkcolor">C</a></li>
@@ -45,8 +57,8 @@
 		      </div>
 		    </form>
 	      <ul class="nav navbar-nav navbar-right">
-	        <li><a href="#" id="linkcolor"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-	        <li><a href="#" id="linkcolor"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+	        <li><a href="Signup.php" id="linkcolor"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+	        <li><a href="Login.php" id="linkcolor"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
 	      </ul>
 	    </div>
 	  </div>
