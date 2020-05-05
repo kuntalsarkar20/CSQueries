@@ -52,6 +52,22 @@ h2 {
 	      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.10), 0 6px 20px 0 rgba(0,0,0,0.25);
 
 	    }
+.pentagon  {
+	clip-path:polygon(60.33% 0%, 80.66% 0%, 100% 60.33%, 100% 80.66%, 80.66% 100%, 66.33% 100%, 0 79.66%, 0 60.33%);
+ 
+}
+.contactus-button {
+  background-color: #d6d6c2;
+  color: black;
+  border: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px 40px;
+}
+.contactus-button:hover{
+	      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.10), 0 6px 20px 0 rgba(0,0,0,0.25);
+}
+	    
 
 /*.parallax {
 	background-image: url("ae3d3c64272ef0a2507540240cdf490b.jpg");
