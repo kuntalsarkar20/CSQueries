@@ -1,7 +1,7 @@
 <?php
 include "Header.php";
 ?>
-<div class="parallax" style="padding: 500px 0px 50px 0px;">
+<div class="parallax" style="padding: 550px 0px 50px 0px;">
 	<div class="centered" style="padding: 150px 0px 0px 0px;"><center><h2 style="font-weight: bold;">Student Portal for Better UnderStanding</h2><br><h4>Contribute here by Writing Answers for your favourite Subjects and Help others to understand the Subject Easily.</h4><br><button type="button" class="btn btn-success btn-lg">Contribute Here</button></center></div>
 </div>
 <section>
