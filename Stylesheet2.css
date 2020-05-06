@@ -52,8 +52,8 @@ h2 {
 	      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.10), 0 6px 20px 0 rgba(0,0,0,0.25);
 
 	    }
-.pentagon  {
-	clip-path:polygon(60.33% 0%, 80.66% 0%, 100% 60.33%, 100% 80.66%, 80.66% 100%, 66.33% 100%, 0 79.66%, 0 60.33%);
+.hexagon  {
+	clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
  
 }
 .contactus-button {
@@ -69,13 +69,13 @@ h2 {
 }
 	    
 
-/*.parallax {
-	background-image: url("ae3d3c64272ef0a2507540240cdf490b.jpg");
-	 height: %;
+.parallax {
+	background-image: url("macro-depth-of-field-laptop-code-wallpaper-preview.jpg");
+	 height:;
 	 width:;
 	 background-attachment: fixed;
 	 background-position: center;
 	 background-repeat: no-repeat;
 	 background-size: cover;
 	 padding-bottom: ;
-		}*/
+}
