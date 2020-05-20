@@ -50,7 +50,7 @@ include "Header.php";
 				  <img src="having_doubts.png" class="about-section-img" alt="John" style="width:100%">
 				  <h1>Having Doubts?</h1><br>
 				  <div class="about-section-img-middle">
-				  <p class="title"><button type="button" class="about-section-button">Ask Us</button></p>
+				  <p><button type="button" class="about-section-button">Ask Us</button></p>
 				</div>
 				</div>
 			</div>
@@ -60,7 +60,7 @@ include "Header.php";
 				  <img src="search_here.png" class="about-section-img" alt="John" style="width:100%;height:200px;">
 				  <h1>Find Answers Quickly</h1><br>
 				 	<div class="about-section-img-middle">
-				 	 	<p class="title"><button type="button" class="about-section-button">Search</button></p>
+				 	 	<p><button type="button" class="about-section-button">Search</button></p>
 					</div>
 				</div>
 			</div>
