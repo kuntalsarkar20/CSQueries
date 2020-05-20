@@ -12,14 +12,20 @@ body {
 .navBar{
 	background-color: #5cb85c;
 }
-#linkcolor{
-	color:white;
+.navbar-inverse .navbar-nav>li>a {
+     color: #ffff; 
+}
+.navbar-inverse .navbar-brand {
+     color: #ffff; 
+}
+.linkcolor{
+	color:#ffff;
 	background-color: #5cb85c;
 }
-#linkcolor:hover{
+.linkcolor:hover{
 	color:black;
 }
-#linkcolor:active{
+.linkcolor:active{
 	color:green;
 }
 .centered {
@@ -38,7 +44,6 @@ body {
   max-width: 300px;
   margin: auto;
   text-align: center;
-  font-family: arial;
 }
 .datestyle{
 	float: right;

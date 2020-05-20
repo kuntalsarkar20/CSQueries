@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>First Page</title>
 	<meta charset="utf-8">
@@ -22,34 +22,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap" rel="stylesheet">
     <style type="text/css">
- /**  .ml14 {
-  font-weight: 200;
-  font-size: 3.2em;
-}
-
-.ml14 .text-wrapper {
-  position: relative;
-  display: inline-block;
-  padding-top: 0.1em;
-  padding-right: 0.05em;
-  padding-bottom: 0.15em;
-}
-
-.ml14 .line {
-  opacity: 0;
-  position: absolute;
-  left: 0;
-  height: 2px;
-  width: 100%;
-  background-color: #fff;
-  transform-origin: 100% 100%;
-  bottom: 0;
-}
-
-.ml14 .letter {
-  display: inline-block;
-  line-height: 1em;
-}**/
+ 
 .ml16 {
   color: #402d2d;
   padding: 40px 0;
@@ -94,7 +67,99 @@
 
 .ml1 .line1 { top: 0; }
 .ml1 .line2 { bottom: 0; }
+/*.hexagon { 
+            top: 30vh; 
+            left: 40%; 
+            position: absolute; 
+            margin: 0 auto; 
+            background-color: dodgerblue; 
+            border-radius: 10px; 
+            width: 100px;  
+            height: 63px; 
+            box-sizing: border-box; 
+            transition: all 1s; 
+            border: 0.4vh solid transparent; 
+        } 
+          
+        /* Creating pseudo-class */
+        .hexagon:before, .hexagon:after { 
+            content: ""; 
+            border: inherit; 
+            position: absolute; 
+            top: -0.5vh; 
+            left: -0.5vh; 
+            background-color: dodgerblue; 
+            border-radius: inherit; 
+            height: 100%; 
+            width: 100%; 
+            z-index: -1;
+        } 
+          
+        /* Align them in such a way 
+        that they form a hexagon */
+        .hexagon:before { 
+            transform: rotate(60deg); 
+        } 
+        .hexagon:after { 
+            transform: rotate(-60deg); 
+        }
+        /*Cookie Consent Begin*/
+#cookieConsent {
+    background-color: rgba(20,20,20,0.8);
+    min-height: 26px;
+    font-size: 14px;
+    color: #ccc;
+    line-height: 26px;
+    padding: 8px 0 8px 30px;
+    font-family: "Trebuchet MS",Helvetica,sans-serif;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    z-index: 9999;
+}
+#cookieConsent a {
+    color: #4B8EE7;
+    text-decoration: none;
+}
+#closeCookieConsent {
+    float: right;
+    display: inline-block;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    margin: -15px 0 0 0;
+    font-weight: bold;
+}
+#closeCookieConsent:hover {
+    color: #FFF;
+}
+#cookieConsent a.cookieConsentOK {
+    background-color: #F1D600;
+    color: #000;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 0 20px;
+    cursor: pointer;
+    float: right;
+    margin: 0 60px 0 10px;
+}
+#cookieConsent a.cookieConsentOK:hover {
+    background-color: #E0C91F;
+}
+/*Cookie Consent End*/
     </style>
+    <script type="text/javascript">
+    	$(document).ready(function(){   
+    setTimeout(function () {
+        $("#cookieConsent").fadeIn(100);
+     }, 1000);
+    $("#closeCookieConsent, .cookieConsentOK").click(function() {
+        $("#cookieConsent").fadeOut(200);
+    }); 
+}); 
+    </script>
 </head>
 <body>
 	<nav class="navbar navbar-inverse navbar-fixed-top navBar">
@@ -105,18 +170,18 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>                        
 	      </button>
-	      <a class="navbar-brand" href="#" id="linkcolor">CSQueries</a>
+	      <a class="navbar-brand linkcolor" href="#">CSQueries</a>
 	    </div>
 	    <div class="collapse navbar-collapse" id="myNavbar">
 	      <ul class="nav navbar-nav">
-	        <li><a href="#" id="linkcolor">Home</a></li>
+	        <li><a href="#" class="linkcolor"><span class="glyphicon glyphicon-home"></span> Home</a></li>
 	        <li class="dropdown">
-	          <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="linkcolor">Category <span class="caret"></span></a>
+	          <a class="dropdown-toggle linkcolor" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-list-alt"></span> Category <span class="caret"></span></a>
 	          <ul class="dropdown-menu navBar">
-	            <li><a href="#" id="linkcolor">DBMS</a></li>
-	            <li><a href="#" id="linkcolor">DS & Algorithm</a></li>
-	            <li><a href="#" id="linkcolor">C</a></li>
-	            <li><a href="#" id="linkcolor">C++</a></li>
+	            <li><a href="#" class="linkcolor">DBMS</a></li>
+	            <li><a href="#" class="linkcolor">DS & Algorithm</a></li>
+	            <li><a href="#" class="linkcolor">C</a></li>
+	            <li><a href="#" class="linkcolor">C++</a></li>
 	          </ul>
 	        </li>
 	      </ul>
@@ -131,8 +196,8 @@
 		      </div>
 		    </form>
 	      <ul class="nav navbar-nav navbar-right">
-	        <li><a href="Signup.php" id="linkcolor"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-	        <li><a href="Login.php" id="linkcolor"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+	        <li><a href="Signup.php" class="linkcolor"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+	        <li><a href="Login.php" class="linkcolor"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
 	      </ul>
 	    </div>
 	  </div>
