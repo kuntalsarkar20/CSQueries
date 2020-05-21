@@ -18,6 +18,7 @@ include "Header.php";
 							<div class="col-lg-12 col-md-12 col-sm-12 box1">
 										<h1><span class="glyphicon glyphicon-star"></span> Badges</h1>
 										<div class="row">
+											<div class="row">
 								<div class="col-lg-2 col-md-2 col-sm-2" style="padding: 0px 30px;">
 									<div class="hexagon" style="height: 100px;width: 100px;background-color:#ff6633;padding: 5px 0px 10px 0px;border-radius: 25px;">
 										 <h2 style="text-align: center;"><span class="glyphicon glyphicon-file"></span><br>
@@ -30,6 +31,7 @@ include "Header.php";
 										Completed Qus: 5</h2>
 									</div>
 								</div>
+							</div>
 									<div class="col-lg-2 col-md-2 col-sm-2" style="padding: 0px 30px;">
 									<div class="hexagon" style="height: 100px;width: 100px;background-color:#ff6633;padding: 5px 0px 10px 0px;border-radius: 25px;">
 										 <h2 style="text-align: center;"><span class="glyphicon glyphicon-file"></span><br>

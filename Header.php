@@ -160,6 +160,17 @@
     }); 
 }); 
     </script>
+<!-- Slide Show of Contributor -->
+    <script type="text/javascript">
+    	// When the DOM is ready, run this function
+$(document).ready(function() {
+  //Set the carousel options
+  $('#quote-carousel').carousel({
+    pause: true,
+    interval: 4000,
+  });
+});
+    </script>
 </head>
 <body>
 	<nav class="navbar navbar-inverse navbar-fixed-top navBar">

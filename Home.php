@@ -129,7 +129,7 @@ include "Header.php";
 </div>
 </section>
 <!-- Contributer -->
-<div class="container">
+<!-- <div class="container">
 	<div class="col-lg-12 col-md-12 col-sm-12">
 		<div class="row">
 			<div class="col-lg-2 col-md-3 col-sm-3" style="padding: 20px;">
@@ -197,7 +197,88 @@ include "Header.php";
 			</div>
 		</div>
 	</div>
+</div> -->
+<div class="container">
+  <div class="row">
+    <div class='col-md-offset-2 col-md-8 text-center'>
+    
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-offset-1 col-lg-10 col-md-10 col-sm-10 contributor-slide">
+      <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+        <!-- Bottom Carousel Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#quote-carousel" data-slide-to="1"></li>
+          <li data-target="#quote-carousel" data-slide-to="2"></li>
+        </ol>
+        
+        <!-- Carousel Slides / Quotes -->
+        <div class="carousel-inner">
+        
+          <!-- Quote 1 -->
+          <div class="item active">
+            
+              <div class="row">
+                <div class="col-sm-3 text-center" style="padding: 25px;">
+                  <img class="img-circle" src="avatar-367-456319.png" style="width: 100px;height:100px;">
+                </div>
+                <div class="col-sm-9">
+                  <h2 style="font-size: 35px;border-top:px solid black;">Kuntal Sarkar</h2>
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-12">
+						<p>Badges: <span class="glyphicon glyphicon-star"></span> <span class="glyphicon glyphicon-star"></span> <span class="glyphicon glyphicon-star"></span></p>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12">
+						<p>No Of Question: 10</p>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12">
+						<button type="button" class="pofilebutton">View Profile</button>
+					</div>
+				</div>
+                </div>
+              </div>
+           
+          </div>
+          <!-- Quote 2 -->
+          <div class="item">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center">
+                  <img class="img-circle" src="avatar-367-456319.png" style="width: 100px;height:100px;">
+                </div>
+                <div class="col-sm-9">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor nec lacus ut tempor. Mauris.</p>
+                  <small>Someone famous</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+          <!-- Quote 3 -->
+          <div class="item">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center">
+                  <img class="img-circle" src="avatar-367-456319.png" style="width: 100px;height:100px;">
+                </div>
+                <div class="col-sm-9">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium mauris.</p>
+                  <small>Someone famous</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+        </div>
+        
+        <!-- Carousel Buttons Next/Prev -->
+        <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+        <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+      </div>                          
+    </div>
+    </div>
 </div>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 <script type="text/javascript">
 

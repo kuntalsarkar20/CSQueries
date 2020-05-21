@@ -7,7 +7,7 @@ include "Header.php";
 		<div class="row">
 			<div class="col-lg-4 col-md-4 col-sm-4">
 				<div class="card" data-aos="zoom-in-up" data-aos-duration="1500" style="box-shadow: 1px 19px 15px 9px rgba(0,0,0,.2);background-color: #fff;">
-					<div class="hexagon"  data-aos="fade-down" data-aos-duration="1500" style="padding: 20px;">
+					<div class="meet-the-team-hexagon"  data-aos="fade-down" data-aos-duration="1500" style="padding: 20px;">
 						<img src="Signs-of-a-Self-Confident-Man-intro.jpg" alt="Jane" style="width:200px; height: 250px;">
 					</div>
 					<h1 data-aos="fade-right" data-aos-duration="1500">Kuntal Sarkar
@@ -22,7 +22,7 @@ include "Header.php";
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4">
 				<div class="card" data-aos="zoom-in-up" data-aos-duration="1500" style="box-shadow: 1px 19px 15px 9px rgba(0,0,0,.2);background-color: #fff;">
-					<div class="hexagon" data-aos="fade-down" data-aos-duration="1500" style="padding: 20px;">
+					<div class="meet-the-team-hexagon" data-aos="fade-down" data-aos-duration="1500" style="padding: 20px;">
 						<img src="Signs-of-a-Self-Confident-Man-intro.jpg" alt="Jane" style="width:200px; height: 250px;">
 					</div>
 					<h1 data-aos="fade-down" data-aos-duration="1500">Kuntal Sarkar
@@ -37,7 +37,7 @@ include "Header.php";
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4">
 				<div class="card" data-aos="zoom-in-up" data-aos-duration="1500" style="box-shadow: 1px 19px 15px 9px rgba(0,0,0,.2);background-color: #fff;">
-					<div class="hexagon" data-aos="fade-down" data-aos-duration="1500" style="padding: 20px;">
+					<div class="meet-the-team-hexagon" data-aos="fade-down" data-aos-duration="1500" style="padding: 20px;">
 						<img src="Signs-of-a-Self-Confident-Man-intro.jpg" alt="Jane" style="width:200px; height: 250px;">
 					</div>
 					<h1 data-aos="fade-left" data-aos-duration="1500">Kuntal Sarkar
