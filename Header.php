@@ -21,6 +21,9 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap" rel="stylesheet">
+    <!-- Icon -->
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    
     <style type="text/css">
  
 .ml16 {
