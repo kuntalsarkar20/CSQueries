@@ -129,78 +129,9 @@ include "Header.php";
 </div>
 </section>
 <!-- Contributer -->
-<!-- <div class="container">
-	<div class="col-lg-12 col-md-12 col-sm-12">
-		<div class="row">
-			<div class="col-lg-2 col-md-3 col-sm-3" style="padding: 20px;">
-				<img src="avatar-367-456319.png" alt="jana" style="width: 130px;border-radius: 25%;">
-			</div>
-				<div class=" col-lg-7 col-md-7 col-sm-6" style="padding: 0px;">
-						<h1 style="font-size: 35px;border-top:2px solid black;">Kuntal Sarkar</h1>
-				<div class="row">
-					<div class="col-lg-4 col-md-4 col-sm-12">
-						<h1>Badges: <span class="glyphicon glyphicon-star"></span> <span class="glyphicon glyphicon-star"></span> <span class="glyphicon glyphicon-star"></span></h1>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-12" style="padding: 30px;">
-						<p>No Of Question: 10</p>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-12" style="padding: 22px;">
-						<button type="button" class="pofilebutton">View Profile</button>
-					</div>
-				</div>			
-			</div>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-lg-1 col-md-1 col-sm-12"></div>
-	<div class="col-lg-11 col-md-11 col-sm-12">
-		<div class="row" style="padding: 10px;">
-			<div class="col-lg-2 col-md-2 col-sm-12">&nbsp;</div>
-			<div class="col-lg-7 col-md-7 col-sm-12" style="padding: 0px;">
-				<h1 style="font-size: 35px;border-top:2px solid black;">Kuntal Sarkar</h1>
-				<div class="row">
-					<div class="col-lg-4 col-md-4 col-sm-12">
-						<h1>Badges: <span class="glyphicon glyphicon-star"></span> <span class="glyphicon glyphicon-star"></span> <span class="glyphicon glyphicon-star"></span></h1>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-12" style="padding:px;">
-						<h2>No Of Question: 10</h2>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-12" style="padding:22px ;">
-						<button type="button" class="pofilebutton">View Profile</button>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-3 col-sm-12" style="padding: 20px;">
-				<img src="avatar-367-456319.png" alt="jana" style="width: 130px;border-radius: 25%;" >
-			</div>				
-		</div>
-	</div>
-</div>
-	<div class="col-lg-12 col-md-12 col-sm-12">
-		<div class="row">
-			<div class="col-lg-2 col-md-3 col-sm-3" style="padding: 20px;">
-				<img src="avatar-367-456319.png" alt="jana" style="width: 130px;border-radius: 25%;">
-			</div>
-			<div class="col-lg-7 col-md-7 col-sm-6" style="padding: 0px;">
-				<h1 style="font-size: 35px;border-top:2px solid black;">Kuntal Sarkar</h1>
-				<div class="row">
-					<div class="col-lg-4 col-md-4 col-sm-12">
-						<h1>Badges: <span class="glyphicon glyphicon-star"></span> <span class="glyphicon glyphicon-star"></span> <span class="glyphicon glyphicon-star"></span></h1>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-12" style="padding: 30px;">
-						<p>No Of Question: 10</p>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-12" style="padding: 22px;">
-						<button type="button" class="pofilebutton">View Profile</button>
-					</div>
-				</div>			
-			</div>
-		</div>
-	</div>
-</div> -->
-<section style="padding:80px 0px;background-color:lightgrey;">
-<div class="container" style="background-color:white;border: 2px solid black;height: 380px;">
-  <div class="row" style="">
+<section style="padding:80px 0px;background-image: url(calculations.jpg);">
+<div class="container" style="background-color:;height: 380px;">
+  <div class="row">
     <div class="col-sm-offset-1 col-lg-10 col-md-10 col-sm-12">
       <div class="carousel slide" data-ride="carousel" id="quote-carousel">
         <!-- Bottom Carousel Indicators -->
@@ -211,52 +142,22 @@ include "Header.php";
         </ol>
         
         <!-- Carousel Slides / Quotes -->
-        <div class="carousel-inner">
+        <div class="carousel-inner" style="border:2px solid #ffff;">
         
           <!-- Quote 1 -->
           <div class="item active">
-            
-             <!--  <div class="row">
-                <div class="col-sm-3 text-center" style="padding: px;">
-                  <img class="img-circle" src="avatar-367-456319.png" style="width: 100px;height:100px;">
-                </div>
-                <div class="col-sm-9">
-                  <p style="font-size: 25px;border-top:px solid black;font-weight: bold;">Kuntal Sarkar</p>
-				<div class="row">
-					<div class="col-lg-4 col-md-4 col-sm-12">
-						<p>Badges: <span class="glyphicon glyphicon-star"></span> <span class="glyphicon glyphicon-star"></span> <span class="glyphicon glyphicon-star"></span></p>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-12">
-						<p>No Of Question: 10</p>
-					</div>
-
-					<div class="col-lg-12 col-md-12 col-sm-12">
-						<button type="button" class="pofilebutton">View Profile</button>
-					</div>
-				</div>
-                </div>
-              </div>
- -->        <div class="row">
+ 	        <div class="row">
                 <div class="col-sm-3 hidden-xs">
                 	&nbsp;&nbsp;
-                	
-                  <!-- <img class="img-circle" src="avatar-367-456319.png" style="width: 100px;height:100px;"> -->
                 </div>
-               <div class="col-sm-12" style="border:px solid ;overflow:hidden;background-color:blue;height:300px;">
-               	<div class="col-sm-12" style="margin-top: 50px;position:absolute;background-color:;border-top:4px solid black;">
-               		<div style="position: absolute;
-  top: -50px;
-  /* half of image height */
-  right: 50%;
-  /* right space */"><center><img class="img-circle" src="avatar-367-456319.png" style="width: 100px;height:100px;display:block;"></center>
+               <div class="col-sm-12" style="overflow:hidden;height:300px;">
+               	<div class="col-sm-12" style="margin-top: 50px;position:absolute;border-top:4px solid white;">
+               		<div style="position: absolute;top: -50px; /* half of image height */ right: 50%; /* right space */"><img class="img-circle center" src="avatar-367-456319.png" style="width: 100px;height:100px;display:block;">
 				</div><br><br>
-               		<p>PowerPoint templates for Quotes in presentations. Set of famous quotes on motivation, future, time planning etc. by Sun Tzu, Richard Banson, Michal Kundera or Terry Pratchett. Includes creative graphics editable using PPT tools. The text inside quotes can be replaced by your own</p>
-               		<p style="font-weight: bold;font-size: 25px;text-align: center;">Kuntal Sarkar</p>
+               		<p style="color: white">PowerPoint templates for Quotes in presentations. Set of famous quotes on motivation, future, time planning etc. by Sun Tzu, Richard Banson, Michal Kundera or Terry Pratchett. Includes creative graphics editable using PPT tools. The text inside quotes can be replaced by your own</p>
+               		<a href="" class="links-col"><p style="font-weight: bold;font-size: 25px;text-align: center;">Kuntal Sarkar</p></a>
                		</div>
-					
-                
             </div>
-            
               </div>
           </div>
            <div class="item">
@@ -266,53 +167,34 @@ include "Header.php";
                 	
                   <!-- <img class="img-circle" src="avatar-367-456319.png" style="width: 100px;height:100px;"> -->
                 </div>
-               <div class="col-sm-12" style="border:px solid ;overflow:hidden;background-color:blue;height:300px;">
-               	<div class="col-sm-12" style="margin-top: 50px;position:absolute;background-color:;border-top:4px solid black;">
-               		<div style="position: absolute;
-  top: -50px;
-  /* half of image height */
-  right: 50%;
-  /* right space */"><center><img class="img-circle" src="avatar-367-456319.png" style="width: 100px;height:100px;display:block;"></center>
+               <div class="col-sm-12" style="border:px solid ;overflow:hidden;height:300px;">
+               	<div class="col-sm-12" style="margin-top: 50px;position:absolute;background-color:;border-top:4px solid white;">
+               		<div style="position: absolute;top: -50px;/* half of image height */ right: 50%; /* right space */"><img class="img-circle center" src="avatar-367-456319.png" style="width: 100px;height:100px;display:block;">
 				</div><br><br>
-               		<p>PowerPoint templates for Quotes in presentations. Set of famous quotes on motivation, future, time planning etc.</p>
-               		<p style="font-weight: bold;font-size: 25px;text-align: center;">Kuntal Sarkar</p>
+               		<p style="color: white">PowerPoint templates for Quotes in presentations. Set of famous quotes on motivation, future, time planning etc. by Sun Tzu, Richard Banson, Michal Kundera or Terry Pratchett. Includes creative graphics editable using PPT tools. The text inside quotes can be replaced by your own</p>
+               		<p style="font-weight: bold;font-size: 25px;text-align: center;color: white;">Kuntal Sarkar</p>
                		</div>
-					
-                
             </div>
-            
               </div>
           </div>
-          <!-- Quote 2 -->
-          <!-- <div class="item">
-            
-              <div class="row">
-                <div class="col-sm-3 text-center">
-                  <img class="img-circle" src="avatar-367-456319.png" style="width: 100px;height:100px;">
+          <div class="item">
+     <div class="row">
+                <div class="col-sm-3 hidden-xs">
+                	&nbsp;&nbsp;
+                	
+                  <!-- <img class="img-circle" src="avatar-367-456319.png" style="width: 100px;height:100px;"> -->
                 </div>
-                <div class="col-sm-9">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor nec lacus ut tempor. Mauris.</p>
-                  <small>Someone famous</small>
-                </div>
-              </div>
-            
-          </div> -->
-          <!-- Quote 3 -->
-          <!-- <div class="item">
-            
-              <div class="row">
-                <div class="col-sm-3 text-center">
-                  <img class="img-circle" src="avatar-367-456319.png" style="width: 100px;height:100px;">
-                </div>
-                <div class="col-sm-9">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium mauris.</p>
-                  <small>Someone famous</small>
-                </div>
+               <div class="col-sm-12" style="border:px solid ;overflow:hidden;height:300px;">
+               	<div class="col-sm-12" style="margin-top: 50px;position:absolute;background-color:;border-top:4px solid white;">
+               		<div style="position: absolute;top: -50px;/* half of image height */ right: 50%; /* right space */"><img class="img-circle center" src="avatar-367-456319.png" style="width: 100px;height:100px;display:block;">
+				</div><br><br>
+               		<p style="color: white">PowerPoint templates for Quotes in presentations. Set of famous quotes on motivation, future, time planning etc. by Sun Tzu, Richard Banson, Michal Kundera or Terry Pratchett. Includes creative graphics editable using PPT tools. The text inside quotes can be replaced by your own</p>
+               		<p style="font-weight: bold;font-size: 25px;text-align: center;color: white;">Kuntal Sarkar</p>
+               		</div>
+            </div>
               </div>
           </div>
-        </div> -->
-        
-        <!-- Carousel Buttons Next/Prev -->
+ 		<!-- Carousel Buttons Next/Prev -->
         <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
         <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
       </div>                          

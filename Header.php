@@ -23,7 +23,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap" rel="stylesheet">
     <!-- Icon -->
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style type="text/css">
  
 .ml16 {
@@ -173,6 +173,24 @@ $(document).ready(function() {
     interval: 4000,
   });
 });
+    </script>
+    
+    <script type="text/javascript">
+    	/*Scroll to top when arrow up clicked BEGIN*/
+$(document).ready(function(){ 
+    $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 100) { 
+            $('#scroll').fadeIn(); 
+        } else { 
+            $('#scroll').fadeOut(); 
+        } 
+    }); 
+    $('#scroll').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+});
+ /*Scroll to top when arrow up clicked END*/
     </script>
 </head>
 <body>
