@@ -1,6 +1,7 @@
 <?php
 include "Header.php";
 ?>
+<button onclick="topFunction()" id="myBtn" title="Go to top" style="background-color: green;">Top</button>
 <!-- <div>
 	<img src="background.jpg" width="100%" height="600px">
 	<div class="centered"><center><h2 style="font-weight: bold;">Student Portal for Better UnderStanding</h2><br><h4>Contribute here by Writing Answers for your favourite Subjects and Help others to understand the Subject Easily.</h4><br><button type="button" class="btn btn-success btn-lg">Contribute Here</button></center></div>
@@ -129,7 +130,7 @@ include "Header.php";
 </div>
 </section>
 <!-- Contributer -->
-<section style="padding:80px 0px;background-image: url(calculations.jpg);">
+<section style="padding:80px 0px;background-image: url(calculations.jpg);background-size: 100% 100%;">
 <div class="container" style="background-color:;height: 380px;">
   <div class="row">
     <div class="col-sm-offset-1 col-lg-10 col-md-10 col-sm-12">
@@ -171,7 +172,7 @@ include "Header.php";
                	<div class="col-sm-12" style="margin-top: 50px;position:absolute;background-color:;border-top:4px solid white;">
                		<div style="position: absolute;top: -50px;/* half of image height */ right: 50%; /* right space */"><img class="img-circle center" src="avatar-367-456319.png" style="width: 100px;height:100px;display:block;">
 				</div><br><br>
-               		<p style="color: white">PowerPoint templates for Quotes in presentations. Set of famous quotes on motivation, future, time planning etc. by Sun Tzu, Richard Banson, Michal Kundera or Terry Pratchett. Includes creative graphics editable using PPT tools. The text inside quotes can be replaced by your own</p>
+               		<p style="color: white">PowerPoint templates for Quotes in presentations. Set of famous quotes on motivation, future, time planning etc. by Sun Tzu, Richard Banson, Michal Kundera or Terry Pratchett.</p>
                		<p style="font-weight: bold;font-size: 25px;text-align: center;color: white;">Kuntal Sarkar</p>
                		</div>
             </div>
@@ -202,6 +203,7 @@ include "Header.php";
     </div>
 </div>
 </div>
+
 </section>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>

@@ -27,7 +27,31 @@
     <div id="closeCookieConsent">x</div>
     This website is using cookies. <a href="#" target="_blank">More info</a>. <a class="cookieConsentOK">That's Fine</a>
 </div>
-<a href="#" id="scroll" style="display: none;"></a>
+   <script type="text/javascript">
+    	/*Scroll to top when arrow up clicked BEGIN*/
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  	// alert(mybutton.style.display);
+    document.getElementById("myBtn").style.display = "block";
+    console.log(document.body.scrollTop);
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+ /*Scroll to top when arrow up clicked END*/
+    </script>
+
 		<script>
 	  AOS.init();
 	</script>

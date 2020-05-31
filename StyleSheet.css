@@ -11,14 +11,24 @@ body {
 }
 .navBar{
 	background-color: #5cb85c;
+  transition:all 1s ease-in-out;
+
 }
-.navbar-inverse .navbar-nav>li>a {
+.navbar-inverse .navbar-nav>li>a{
      color: #ffff; 
+     transition:all 1s ease-in-out;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: black;
+    background-color: transparent;
 }
 .navbar-inverse .navbar-brand {
      color: #ffff; 
+     transition:all 1s ease-in-out;
+
 }
-.linkcolor{
+
+/*.linkcolor{
 	color:#ffff;
 	background-color: #5cb85c;
 }
@@ -27,7 +37,7 @@ body {
 }
 .linkcolor:active{
 	color:green;
-}
+}*/
 .centered {
   position: absolute;
   color:white;

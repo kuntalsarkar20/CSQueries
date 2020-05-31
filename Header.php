@@ -174,26 +174,9 @@ $(document).ready(function() {
   });
 });
     </script>
-    
-    <script type="text/javascript">
-    	/*Scroll to top when arrow up clicked BEGIN*/
-$(document).ready(function(){ 
-    $(window).scroll(function(){ 
-        if ($(this).scrollTop() > 100) { 
-            $('#scroll').fadeIn(); 
-        } else { 
-            $('#scroll').fadeOut(); 
-        } 
-    }); 
-    $('#scroll').click(function(){ 
-        $("html, body").animate({ scrollTop: 0 }, 600); 
-        return false; 
-    }); 
-});
- /*Scroll to top when arrow up clicked END*/
-    </script>
-</head>
+    </head>
 <body>
+	
 	<nav class="navbar navbar-inverse navbar-fixed-top navBar">
 	  <div class="container"> <!--To make the navbar full screen add -fluid here -->
 	    <div class="navbar-header">
@@ -202,18 +185,18 @@ $(document).ready(function(){
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>                        
 	      </button>
-	      <a class="navbar-brand linkcolor" href="#">CSQueries</a>
+	      <a class="navbar-brand" href="#">CSQueries</a>
 	    </div>
 	    <div class="collapse navbar-collapse" id="myNavbar">
 	      <ul class="nav navbar-nav">
-	        <li><a href="#" class="linkcolor"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+	        <li><a href="#" ><span class="glyphicon glyphicon-home"></span> Home</a></li>
 	        <li class="dropdown">
-	          <a class="dropdown-toggle linkcolor" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-list-alt"></span> Category <span class="caret"></span></a>
+	          <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-list-alt"></span> Category <span class="caret"></span></a>
 	          <ul class="dropdown-menu navBar">
-	            <li><a href="#" class="linkcolor">DBMS</a></li>
-	            <li><a href="#" class="linkcolor">DS & Algorithm</a></li>
-	            <li><a href="#" class="linkcolor">C</a></li>
-	            <li><a href="#" class="linkcolor">C++</a></li>
+	            <li><a href="#">DBMS</a></li>
+	            <li><a href="#">DS & Algorithm</a></li>
+	            <li><a href="#">C</a></li>
+	            <li><a href="#">C++</a></li>
 	          </ul>
 	        </li>
 	      </ul>
@@ -228,8 +211,8 @@ $(document).ready(function(){
 		      </div>
 		    </form>
 	      <ul class="nav navbar-nav navbar-right">
-	        <li><a href="Signup.php" class="linkcolor"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-	        <li><a href="Login.php" class="linkcolor"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+	        <li><a href="Signup.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+	        <li><a href="Login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
 	      </ul>
 	    </div>
 	  </div>
